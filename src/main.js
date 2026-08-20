@@ -40,7 +40,7 @@ function updateSEO(path) {
 
   const metaTitle = pageData?.metaTitle || defaultTitle;
   const metaDesc = pageData?.metaDescription || defaultDesc;
-  const canonicalUrl = `https://texasproplumbing.com${normalizedPath}`;
+  const canonicalUrl = `https://www.texasproplumbing.com${normalizedPath}`;
 
   // Update DOM Title
   document.title = metaTitle;
@@ -77,7 +77,7 @@ function updateSEO(path) {
       "@context": "https://schema.org",
       "@type": "PlumbingService",
       "name": "Texas Pro Plumbing",
-      "url": "https://texasproplumbing.com/",
+      "url": "https://www.texasproplumbing.com/",
       "telephone": "+1-800-555-7586",
       "priceRange": "$$",
       "description": metaDesc,
